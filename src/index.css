@@ -11,3 +11,6 @@
 @import url(./blocks/landing/__button/landing__button.css);
 @import url(./blocks/heading-span/heading-span.css);
 @import url(./blocks/show__device-mobile/show__device-mobile.css);
+
+@import url(./blocks/content/content.css);
+@import url(./blocks/grid/grid.css);
