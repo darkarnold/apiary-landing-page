@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
 import SectionWhyUseful from "../components/SectionWhyUseful"
 
@@ -24,7 +24,7 @@ function Main() {
           Delegate a task
         </button>
       </section>
-      <SectionWhyUseful />
+      <SectionWhyUseful content="whyUseful"/>
     </main>
   );
 }
