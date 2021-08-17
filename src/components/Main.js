@@ -24,7 +24,7 @@ function Main() {
           Delegate a task
         </button>
       </section>
-      <SectionWhyUseful content="whyUseful"/>
+      <SectionWhyUseful />
     </main>
   );
 }

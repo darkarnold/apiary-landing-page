@@ -1,0 +1,13 @@
+.content__wrapper {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1280px;
+    padding: 0 40px;
+}
+
+
+@media only screen and (min-width: 1440px) {
+    .content__wrapper {
+        padding: 0 80px;
+    }
+}
