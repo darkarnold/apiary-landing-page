@@ -2,16 +2,4 @@
     color: #dddddd;
 }
 
-@media only screen and (min-width: 1024px) {
-    .content__text {
-        font-size: 30px;
-        line-height: 40px;
-        max-width: 945px;
-    }
-}
 
-@media only screen and (min-width: 1440px) {
-    .content__text {
-        max-width: 840px;
-    }
-}
