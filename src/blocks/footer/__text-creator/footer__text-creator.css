@@ -1,0 +1,14 @@
+.footer__text-creator {
+    background: #ffffff;
+    border-radius: 14px;
+    color: #000000;
+    padding: 16px;
+    text-align: center;
+    max-width: 348px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer__text-creator {
+        justify-self: center;
+    }
+}

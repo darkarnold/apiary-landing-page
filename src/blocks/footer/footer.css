@@ -1,0 +1,28 @@
+@import url("./__links/footer__links.css");
+@import url("./__links-grid/footer__links-grid.css");
+@import url("./__link/footer__link.css");
+@import url("./__text/footer__text.css");
+@import url("./__text-aboutus/footer__text-aboutus.css");
+@import url("./__text-totop/footer__text-totop.css");
+@import url("./__text-creator/footer__text-creator.css");
+@import url("./__text-copyright/footer__text-copyright.css");
+
+.footer {
+    width: 100%;
+    background: #1a1b22;
+    color: #dddddd;
+    box-sizing: border-box;
+    padding: 40px 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer {
+        padding: 80px 40px 60px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .footer {
+        padding: 80px 80px 60px;
+    }
+}
