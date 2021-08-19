@@ -12,3 +12,12 @@
         justify-self: center;
     }
 }
+
+@media only screen and (min-width: 1280px) {
+    .footer__text-creator:hover {
+        cursor: pointer;
+    }
+    .footer__text-creator:hover ~ #creators {
+        opacity: 1;
+    }
+}
