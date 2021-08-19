@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
 
 function Main() {
