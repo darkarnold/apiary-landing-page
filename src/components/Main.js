@@ -1,5 +1,6 @@
 import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
+import SectionWhyUseful from "../components/SectionWhyUseful"
 
 function Main() {
   return (
@@ -14,7 +15,6 @@ function Main() {
             Delegate a task
           </button>
         </div>
-
         <img
           src={`${meditateGirl}`}
           alt="meditation-girl"
@@ -24,6 +24,7 @@ function Main() {
           Delegate a task
         </button>
       </section>
+      <SectionWhyUseful />
     </main>
   );
 }
