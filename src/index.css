@@ -3,6 +3,9 @@
 @import url(./blocks/root/root.css);
 @import url(./blocks/main/main.css);
 @import url(./blocks/cta/cta.css);
+@import url("./blocks/header/header.css");
+@import url("./blocks/logo/logo.css");
+@import url("./blocks/button/button.css");
 
 @import url(./blocks/landing/landing.css);
 @import url(./blocks/landing/__text-wrapper/landing__text-wrapper.css);

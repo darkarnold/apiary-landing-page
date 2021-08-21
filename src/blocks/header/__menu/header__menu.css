@@ -1,0 +1,16 @@
+.header__menu {
+  display: flex;
+  list-style-type: none;
+  margin: 47px 0 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .header__menu {
+    position: fixed;
+    left: -100%;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+  }
+}
