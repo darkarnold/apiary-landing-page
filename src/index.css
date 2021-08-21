@@ -12,5 +12,5 @@
 @import url("./blocks/content/content.css");
 @import url("./blocks/content/_theme_dark/content_theme_dark.css");
 @import url("./blocks/grid/grid.css");
+@import url("./blocks/grid/__items-why-choose-us/grid__items-why-choose-us.css");
 @import url("./blocks/footer/footer.css");
-

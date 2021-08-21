@@ -1,12 +1,13 @@
 import React from "react";
 
 function contentWhy(props) {
+    console.log(props);
     return (
         <section className="content content_theme_dark">
             <div className="content__wrapper">
                 <h2 className="content__heading content__heading_theme_dark">{props.content.title}</h2>
                 <h3 className="content__text content__text_theme_dark">{props.content.subtitle}</h3>
-                <div className="grid grid__items">
+                <div className={`${props.whyChooseUs ? 'grid grid__items grid__items-why-choose-us' : 'grid grid__items'}`}>
                     <div className="grid__item">
                         <img src={`${props.content.topItem.image}`} alt={props.content.topItem.title} className="grid__item-image" />
                         <h4 className="grid__title">{props.content.topItem.title}</h4>
