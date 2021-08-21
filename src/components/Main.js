@@ -1,6 +1,7 @@
 import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
 import SectionWhyUseful from "../components/SectionWhyUseful"
+import SectionDelegate from "../components/SectionDelegate";
 
 function Main() {
   return (
@@ -25,6 +26,7 @@ function Main() {
         </button>
       </section>
       <SectionWhyUseful />
+      <SectionDelegate />
     </main>
   );
 }

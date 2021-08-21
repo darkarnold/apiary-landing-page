@@ -1,6 +1,7 @@
 import prBoost from "./images/PR-boost.png";
 import resourceSaving from "./images/resource-saving.png";
 import publicize from "./images/publicize.png";
+import peopleWithLaptop from "./images/peopleWithLaptop.png";
 
 const contentWhyUseful = {
     title: "Why is it useful for your company?",
@@ -20,6 +21,12 @@ const contentWhyUseful = {
         title: "PR boost",
         subtitle: "This will increase the visibility of the company among job seekers and attract those who share the values of your company."
     }
+}
+
+export const contentDelegateTasks = {
+    title: "Delegate tasks to those who enjoy them",
+    subtitle: "Check out the projects our students have done for companies in the USA and beyond",
+    image: peopleWithLaptop
 }
 
 export default contentWhyUseful
