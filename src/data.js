@@ -64,11 +64,10 @@ export const contentWhyChooseUs = {
     },
   ],
 };
+
 export const contentDelegateTasks = {
   title: "Delegate tasks to those who enjoy them",
   subtitle:
     "Check out the projects our students have done for companies in the USA and beyond",
   image: peopleWithLaptop,
 };
-
-export default contentWhyUseful;

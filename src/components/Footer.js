@@ -15,13 +15,14 @@ function Footer() {
                 <div className="footer__links-grid">
                     <ul className="footer__links">
                         <li>
-                            <a href="/" className="footer__link">
-                                msgordienko@yandex-team.com</a>
+                            <a href="mailto:msgordienko@yandex-team.com" className="footer__link">msgordienko@yandex-team.com</a>
                         </li>
                         <li>
-                            <a href="/" className="footer__link">Linkedin</a>
+                            <a href="https://www.linkedin.com/school/practicum-by-yandex" target="_blank" className="footer__link" rel="noreferrer">Linkedin</a>
                         </li>
-                        <li className="footer__text">+1-510-646-62-5</li>
+                        <li>
+                            <a href="tel:+1-510-646-62-5" className="footer__link">+1-510-646-62-5</a>
+                        </li>
                     </ul>
                     <p className="footer__text footer__text-creator">
                         This website is developed by Practicum by Yandex’students

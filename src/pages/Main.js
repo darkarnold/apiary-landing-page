@@ -1,7 +1,7 @@
 import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
 import SectionWhyUseful from "../components/SectionWhyUseful";
-import SectionWhyChooseUs from "./SectionWhyChooseUs";
+import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
 
 import SectionDelegate from "../components/SectionDelegate";
 

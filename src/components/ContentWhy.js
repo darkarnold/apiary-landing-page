@@ -16,7 +16,7 @@ function contentWhy(props) {
                     ))}
                 </div>
             </div>
-        </section >
+        </section>
     )
 }
 
