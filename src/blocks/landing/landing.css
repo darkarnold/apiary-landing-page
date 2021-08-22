@@ -26,24 +26,21 @@
         padding: 80px 40px;
         flex-wrap: nowrap;
         position: relative;
-        justify-content: flex-start;
-        min-height: 60vh;
+        min-height: 70vh;
     }
 }
 
-@media only screen and (min-width: 1230px) {
+@media only screen and (min-width: 1280px) {
     .landing {
-        padding: 80px 40px;
         justify-content: space-between;
-        min-height: 60vh;
+        max-width: 1280px;
+        min-height: 80vh;
     }
 }
 
 @media only screen and (min-width: 1440px) {
     .landing {
-        padding: 0 80px;
-        max-width: 1280px;
+        padding: 0;
         min-height: 80vh;
-        justify-content: space-between;
     }
 }
