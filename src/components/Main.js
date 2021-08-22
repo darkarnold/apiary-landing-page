@@ -3,6 +3,8 @@ import meditateGirl from "../images/meditate-girl.png";
 import SectionWhyUseful from "../components/SectionWhyUseful";
 import SectionWhyChooseUs from "./SectionWhyChooseUs";
 
+import SectionDelegate from "../components/SectionDelegate";
+
 function Main() {
   return (
     <main className="main" id="main">
@@ -27,6 +29,7 @@ function Main() {
       </section>
       <SectionWhyUseful />
       <SectionWhyChooseUs />
+      <SectionDelegate />
     </main>
   );
 }
