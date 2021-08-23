@@ -5,6 +5,7 @@ import quality from "./images/quality.png";
 import professionalism from "./images/Professionalism.png";
 import experience from "./images/experience.png";
 import peopleWithLaptop from "./images/peopleWithLaptop.png";
+import bubbleAvatar from "./images/bubble-avatar.png";
 
 export const contentWhyUseful = {
   title: "Why is it useful for your company?",
@@ -71,3 +72,25 @@ export const contentDelegateTasks = {
     "Check out the projects our students have done for companies in the USA and beyond",
   image: peopleWithLaptop,
 };
+
+export const contentBubble = {
+  title: "What is Practicum by Yandex?",
+  image: bubbleAvatar,
+  messages: [
+    {
+      id: "1",
+      left: "Practicum by Yandex is a kind of boot camp. Our goal is to help ambitious and passionate people to master it and find their first job. At the same time, the level of our training allows graduates to carry out high-quality real projects of companies under the review of experienced mentors.",
+      right: "Who will solve the problems? How much does it cost?"
+    },
+    {
+      id: "2",
+      left: "It is a win-win situation: we take real tasks from real companies and give them to graduates of Data Science and Data Analytics courses. The results of these tasks will be repeatedly checked by curators and returned to the customer as ordered for free.",
+      right: "Why is it free?"
+    },
+    {
+      id: "3",
+      left: "Because Practicum has students who are eager to gain real life experience, find them interesting and useful, and are ready to take on your tasks",
+      right: "Wow! I'm ready to start!"
+    },
+  ]
+}
