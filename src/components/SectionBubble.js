@@ -28,7 +28,7 @@ function SectionBubble() {
                     </div>
                 ))}
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" className="bubble__cta">
-                    <button className="cta cta_theme_dark bubble__cta">
+                    <button className="cta cta_theme_dark">
                         Delegate a task
                     </button>
                 </div>
