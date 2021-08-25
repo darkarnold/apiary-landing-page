@@ -4,6 +4,7 @@ import SectionWhyUseful from "../components/SectionWhyUseful";
 import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
 
 import SectionDelegate from "../components/SectionDelegate";
+import SectionHowToStart from "../components/SectionHowToStart";
 
 function Main() {
   return (
@@ -28,6 +29,7 @@ function Main() {
         </button>
       </section>
       <SectionWhyUseful />
+      <SectionHowToStart />
       <SectionWhyChooseUs />
       <SectionDelegate />
     </main>
