@@ -12,10 +12,11 @@
 @import url("./blocks/content/_theme_dark/content_theme_dark.css");
 @import url("./blocks/grid/grid.css");
 @import url("./blocks/grid/__items-why-choose-us/grid__items-why-choose-us.css");
-@import url("./blocks/howtostart/howtostart.css");
+@import url("./blocks/howToStart/howToStart.css");
 @import url("./blocks/bubble/bubble.css");
 
 @import url("./blocks/delegate/delegate.css");
 @import url("./blocks/footer/footer.css");
 
 @import url("./blocks/show__device-mobile/show__device-mobile.css");
+@import url("./blocks/hide__device_minwidth_1024/hide__device_minwidth_1024.css");

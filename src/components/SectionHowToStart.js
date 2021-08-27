@@ -15,10 +15,10 @@ function SectionHowToStart() {
                             <p className="howToStart__subtitle">{item.subtitle}</p>
                         </div>
                     ))}
-                    <div className="grid__item steps-wrapper">
-                        <div className="steps">
+                    <div className="grid__item howToStart__steps-wrapper">
+                        <div className="howToStart__steps">
                             {contentHowToStart.items.map(item => (
-                                <div className="step" key={item.position}>
+                                <div className="howToStart__step" key={item.position}>
                                     <p className="howToStart__text">{item.position}</p>
                                 </div>
                             ))}
