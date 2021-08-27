@@ -25,6 +25,9 @@ function SectionHowToStart() {
                         </div>
                     </div>
                 </div>
+                <div className="howToStart__cta">
+                    <div className="cta cta_theme_dark">Delegate a Task</div>
+                </div>
             </div>
         </section>
     )
