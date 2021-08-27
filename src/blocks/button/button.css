@@ -5,9 +5,6 @@
   border-radius: 30px;
   background-color: #fff;
   border: 2px solid #ff9900;
-  position: absolute;
-  top: 27px;
-  right: 80px;
   box-sizing: border-box;
   font-family: Suisse Intl, Arial, Helvetica, sans-serif;
   font-size: 16px;
@@ -21,10 +18,35 @@
   background-color: #ff9900;
   color: #fff;
   cursor: pointer;
+  transition: transform 0.5s;
 }
 
-@media screen and (max-width: 1024px) {
+.button__hamburger {
+  background-image: url("../../images/hamburger_toggle_button.svg");
+  width: 32px;
+  height: 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
   .button {
-    right: 40px;
+    width: 288px;
+    height: 70px;
+    border-radius: 40px;
+    background-color: #ff9900;
+    margin: 70px auto 36px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .button__hamburger {
+    display: block;
+    margin-right: 10px;
   }
 }

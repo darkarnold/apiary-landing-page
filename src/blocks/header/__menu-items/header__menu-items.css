@@ -13,6 +13,8 @@
 
 .header__menu-items:hover {
   cursor: pointer;
+  color: #000;
+  transition: all 0.5s;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,11 +23,13 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
   .header__menu-items {
+    width: 100%;
     margin: 0 16px 20px;
     font-size: 34px;
     line-height: 39px;
     text-align: center;
+    color: #000;
   }
 }
