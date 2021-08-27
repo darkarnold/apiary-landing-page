@@ -127,19 +127,13 @@
 }
 
 .howToStart__cta {
-    margin: 30px 0 0;
-    align-self: center;
-    width: 100%;
-}
-
-@media only screen and (min-width: 360px) {
-    .howToStart__cta {
-        width: 293px;
-    }
+    display: flex;
+    margin: 0 auto 60px;
+    max-width: 293px;
 }
 
 @media only screen and (min-width: 1024px) {
     .howToStart__cta {
-        margin: 50px 0 0;
+        margin: 0 auto 100px;
     }
 }

@@ -8,6 +8,7 @@ import peopleWithLaptop from "./images/peopleWithLaptop.png";
 import checklist from "./images/checklist.svg";
 import question from "./images/question.svg";
 import work from "./images/work.svg";
+import bubbleAvatar from "./images/bubble-avatar.png";
 
 export const contentWhyUseful = {
   title: "Why is it useful for your company?",
@@ -75,6 +76,28 @@ export const contentDelegateTasks = {
   image: peopleWithLaptop,
 };
 
+export const contentBubble = {
+  title: "What is Practicum by Yandex?",
+  image: bubbleAvatar,
+  messages: [
+    {
+      id: "1",
+      left: "Practicum by Yandex is a kind of boot camp. Our goal is to help ambitious and passionate people to master it and find their first job. At the same time, the level of our training allows graduates to carry out high-quality real projects of companies under the review of experienced mentors.",
+      right: "Who will solve the problems? How much does it cost?"
+    },
+    {
+      id: "2",
+      left: "It is a win-win situation: we take real tasks from real companies and give them to graduates of Data Science and Data Analytics courses. The results of these tasks will be repeatedly checked by curators and returned to the customer as ordered for free.",
+      right: "Why is it free?"
+    },
+    {
+      id: "3",
+      left: "Because Practicum has students who are eager to gain real life experience, find them interesting and useful, and are ready to take on your tasks",
+      right: "Wow! I'm ready to start!"
+    },
+  ]
+}
+
 export const contentHowToStart = {
   title: "How to Start?",
   items: [
@@ -95,6 +118,6 @@ export const contentHowToStart = {
       image: work,
       title: "We will start solving your tasks",
       subtitle: "Practicum by Yandex students will solve the task, then our curators check and correct their solutions. We'll send you the work. Additionally, if you wish, you may talk to the authors of the best solutions and invite them to join you"
-    },
+    }
   ]
 }
