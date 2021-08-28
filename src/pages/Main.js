@@ -6,7 +6,7 @@ import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
 import SectionDelegate from "../components/SectionDelegate";
 import SectionBubble from "../components/SectionBubble";
 
-function Main() {
+function Main({onCtaClick}) {
   return (
     <main className="main" id="main">
       <section className="landing">
@@ -15,7 +15,7 @@ function Main() {
             <span>Your task. Done by data and web development students.</span>
             <span className="heading_span">For free!</span>
           </h1>
-          <button className="cta cta_theme_dark landing__button">
+          <button className="cta cta_theme_dark landing__button" onClick={onCtaClick}>
             Delegate a task
           </button>
         </div>
@@ -29,7 +29,7 @@ function Main() {
         </button>
       </section>
       <SectionWhyUseful />
-      <SectionBubble />
+      <SectionBubble onCtaClick={onCtaClick}/>
       <SectionWhyChooseUs />
       <SectionDelegate />
     </main>

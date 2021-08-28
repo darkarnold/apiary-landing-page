@@ -3,7 +3,7 @@ import { contentBubble } from "../data"
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function SectionBubble() {
+function SectionBubble({ onCtaClick }) {
     useEffect(() => {
         Aos.init({ duration: 1300 });
     }, [])
@@ -28,7 +28,7 @@ function SectionBubble() {
                     </div>
                 ))}
                 <div data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-once="true" className="bubble__cta">
-                    <button className="cta cta_theme_dark">
+                    <button className="cta cta_theme_dark" onClick={onCtaClick}>
                         Delegate a task
                     </button>
                 </div>
