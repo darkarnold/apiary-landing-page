@@ -6,8 +6,8 @@ import styled from "styled-components";
 
 const ModalOverlay = styled.div`
   width: 100%;
-  height:100%;
-  background : rgba(0,0,0,0.8);
+  height:100vh;
+  background : rgba(0,0,0,0.6);
   position:fixed;
   display:flex;
   flex-direction: column;
@@ -53,7 +53,7 @@ function App() {
       <div className="root__container">
         <Main onCtaClick={handleSetFirstOpen} />
         <Footer />
-        {firstOpen ? <ModalOverlay onMouseDown={closeOnOverlay} ref={modalref} data-aos="zoom-out" data-aos-duration="500">
+        {firstOpen ? <ModalOverlay onMouseDown={closeOnOverlay} ref={modalref} data-aos="zoom-out" data-aos-duration="400">
           <ModalWithForm isOpen={handleSetFirstOpen} isClose={handleSetFirstClose} setFirstOpen={handleSetFirstClose} firstOpen={firstOpen} onSubmit={handleFormSubmit} />
         </ModalOverlay > : null
         }

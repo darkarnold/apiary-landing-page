@@ -31,7 +31,7 @@ function Main({ onCtaClick }) {
       </section>
       <SectionWhyUseful />
       <SectionBubble onCtaClick={onCtaClick} />
-      <SectionHowToStart />
+      <SectionHowToStart  onCtaClick={onCtaClick}/>
       <SectionWhyChooseUs />
       <SectionDelegate />
     </main>

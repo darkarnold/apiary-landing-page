@@ -5,7 +5,9 @@ import { MdClose } from "react-icons/md";
 const ModalWrapperStyled = styled.div`
     box-sizing: border-box;
     max-width: 827px;
-    padding: ${props => props.confirm ? "40px 20px" : "20px 10px 40px"};
+    max-height: 100vh;
+    overflow: scroll;
+    padding: ${props => props.confirm ? "40px 20px" : "20px 10px"};
     margin: 10px;
     border-radius: 14px;
     background:#fff;
@@ -18,11 +20,11 @@ const ModalWrapperStyled = styled.div`
     }
 `
 const FormStyled = styled.form`        
-    margin: 40px 0 0;
+    margin: 10px 0 0;
     display: flex;
     flex-direction: column;
-    @media (min-width: 768px) {
-        margin: 60px 0 0;
+    @media (min-width: 1440px) {
+        margin: 20px 0 0;
     }
 `
 const TitleStyled = styled.h3`
@@ -32,7 +34,7 @@ const TitleStyled = styled.h3`
     line-height: 36px;
     margin:0;
     color: #000000;
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         font-size: 30px;
         line-height: 40px;}
     }
@@ -41,7 +43,7 @@ const FormLabelStyled = styled.label`
     font-size: 16px;
     line-height: 30px;
     color: #000000; 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         font-size: 20px;
         line-height: 30px;
     }
@@ -56,14 +58,14 @@ const FormInputStyled = styled.input`
     font-size: 16px;
     line-height: 30px;
     color: #0a0a0a;
-    margin: 10px 0 24px;
-    padding: 10px;
+    margin: 5px 0 12px;
+    padding: 5px;
     outline:none;
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         font-size: 20px;
         line-height: 30px;
-        margin: 12px 0 40px;
-        padding: 16px 20px;
+        margin: 6px 0 20px;
+        padding: 8px 10px;
     }
 `
 const FormTextAreaStyled = styled.textarea`
@@ -76,13 +78,13 @@ const FormTextAreaStyled = styled.textarea`
     font-weight: normal;
     font-size: 16px;
     line-height: 20px;
-    padding:10px;
-    margin: 10px 0 24px;
+    padding:5px;
+    margin: 5px 0 12px;
     color: #0a0a0a;
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         min-height:152px;
-        padding: 16px 20px; 
-        margin: 12px 0 40px;
+        padding: 8px 10px; 
+        margin: 6px 0 20px;
         font-size: 20px;
         line-height: 30px; 
     }
@@ -92,12 +94,12 @@ const ButtonStyled = styled.button`
     align-self: center;
     justify-content: center;
     width:100%;
-    margin: 30px 0 0;
+    margin: 15px 0 0;
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         align-self: flex-end;
         max-width: 200px;
-        margin: 48px 0 0;
+        margin: 24px 0 0;
     }
 `
 const CloseModalButtonStyled = styled(MdClose)`
@@ -149,7 +151,7 @@ function ModalWithForm(props) {
     return (
         <>
             {!secondOpen ?
-                <ModalWrapperStyled data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="500">
+                <ModalWrapperStyled data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="400">
                     <CloseModalButtonStyled
                         aria-label='Close modal'
                         onClick={handleCloseModals}
