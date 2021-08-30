@@ -6,7 +6,7 @@ import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
 import SectionDelegate from "../components/SectionDelegate";
 import SectionBubble from "../components/SectionBubble";
 
-function Main({onCtaClick}) {
+function Main({ onCtaClick }) {
   return (
     <main className="main" id="main">
       <section className="landing">
@@ -24,12 +24,12 @@ function Main({onCtaClick}) {
           alt="meditation-girl"
           className="landing__image"
         />
-        <button className="cta cta_theme_dark landing__button show__device-mobile">
+        <button className="cta cta_theme_dark landing__button show__device-mobile" onClick={onCtaClick}>
           Delegate a task
         </button>
       </section>
       <SectionWhyUseful />
-      <SectionBubble onCtaClick={onCtaClick}/>
+      <SectionBubble onCtaClick={onCtaClick} />
       <SectionWhyChooseUs />
       <SectionDelegate />
     </main>
