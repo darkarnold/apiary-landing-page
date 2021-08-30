@@ -4,6 +4,7 @@ import SectionWhyUseful from "../components/SectionWhyUseful";
 import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
 
 import SectionDelegate from "../components/SectionDelegate";
+import SectionHowToStart from "../components/SectionHowToStart";
 import SectionBubble from "../components/SectionBubble";
 
 function Main({ onCtaClick }) {
@@ -30,6 +31,7 @@ function Main({ onCtaClick }) {
       </section>
       <SectionWhyUseful />
       <SectionBubble onCtaClick={onCtaClick} />
+      <SectionHowToStart />
       <SectionWhyChooseUs />
       <SectionDelegate />
     </main>
