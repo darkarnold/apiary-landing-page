@@ -11,6 +11,7 @@
   font-weight: 400;
   line-height: 20px;
   color: #ff9900;
+  transition: transform 0.5s;
 }
 
 .button:hover {
@@ -18,7 +19,6 @@
   background-color: #ff9900;
   color: #fff;
   cursor: pointer;
-  transition: transform 0.5s;
 }
 
 .button__hamburger {

@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import logoY from "../images/logo-y.svg";
 import logoPracticum from "../images/logo-practicum.png";
 
 function Header() {
+  const [open, setOpen] = useState(false);
   return (
     <header className="header">
       <div className="header__content-wrapper">
@@ -14,7 +15,10 @@ function Header() {
             className="logo__practicum"
           />
         </div>
-        <button className="button__hamburger"></button>
+        <button
+          className="button__hamburger"
+          onClick={() => setOpen(!open)}
+        ></button>
         <nav>
           <ul className="header__menu">
             <li className="header__menu-items">We can help!</li>
