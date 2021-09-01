@@ -9,6 +9,9 @@ import checklist from "./images/checklist.svg";
 import question from "./images/question.svg";
 import work from "./images/work.svg";
 import bubbleAvatar from "./images/bubble-avatar.png";
+import webDev from "./images/web-dev.png";
+import dataSci from "./images/datascience.png";
+import dataAnalyst from "./images/dataanalysis.png";
 
 export const contentWhyUseful = {
   title: "Why is it useful for your company?",
@@ -119,5 +122,30 @@ export const contentHowToStart = {
       title: "We will start solving your tasks",
       subtitle: "Practicum by Yandex students will solve the task, then our curators check and correct their solutions. We'll send you the work. Additionally, if you wish, you may talk to the authors of the best solutions and invite them to join you"
     }
+  ]
+}
+
+export const contentWhatRequest = {
+  title: "What requests can we help with?",
+  subtitle: "We carry out important, non-urgent tasks, with results that you can use in your work.",
+  items: [
+    {
+      position: "1",
+      image: webDev,
+      title: "Web development",
+      subtitle: "#programming",
+    },
+    {
+      position: "2",
+      image: dataAnalyst,
+      title: "Data analyst",
+      subtitle: "#analysis",
+    },
+    {
+      position: "3",
+      image: dataSci,
+      title: "Data science",
+      subtitle: "#analysis",
+    },
   ]
 }
