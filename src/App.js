@@ -1,4 +1,6 @@
-import Main from "./Main";
+import React from "react";
+import Main from "./pages/Main";
+import Footer from "./components/Footer";
 
 import Header from "./Header";
 
@@ -8,6 +10,7 @@ function App() {
       <div className="root__container">
         <Header />
         <Main />
+        <Footer />
       </div>
     </div>
   );

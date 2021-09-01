@@ -1,4 +1,11 @@
+import React from "react";
 import meditateGirl from "../images/meditate-girl.png";
+import SectionWhyUseful from "../components/SectionWhyUseful";
+import SectionWhyChooseUs from "../components/SectionWhyChooseUs";
+
+import SectionDelegate from "../components/SectionDelegate";
+import SectionHowToStart from "../components/SectionHowToStart";
+import SectionBubble from "../components/SectionBubble";
 
 function Main() {
   return (
@@ -13,7 +20,6 @@ function Main() {
             Delegate a task
           </button>
         </div>
-
         <img
           src={`${meditateGirl}`}
           alt="meditation-girl"
@@ -23,6 +29,11 @@ function Main() {
           Delegate a task
         </button>
       </section>
+      <SectionWhyUseful />
+      <SectionHowToStart />
+      <SectionBubble />
+      <SectionWhyChooseUs />
+      <SectionDelegate />
     </main>
   );
 }
