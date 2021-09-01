@@ -5,6 +5,13 @@
     width: 100%;
     min-height: 266px;
     margin: 0 auto;
+    transition: transform 0.2s ease-out;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
 }
 
 @media only screen and (min-width: 1024px) {
