@@ -1,7 +1,7 @@
 import React from "react";
 import { contentHowToStart } from "../data.js";
 
-function SectionHowToStart() {
+function SectionHowToStart({ onCtaClick }) {
     return (
         <section className="content">
             <div className="content__wrapper">
@@ -26,7 +26,7 @@ function SectionHowToStart() {
                     </div>
                 </div>
                 <div className="howToStart__cta">
-                    <div className="cta cta_theme_dark">Delegate a Task</div>
+                    <button className="cta cta_theme_dark" onClick={onCtaClick}>Delegate a Task</button>
                 </div>
             </div>
         </section>
