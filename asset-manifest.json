@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/apiary-landing-page/static/css/main.0c89340a.chunk.css",
-    "main.js": "/apiary-landing-page/static/js/main.e2bd294d.chunk.js",
-    "main.js.map": "/apiary-landing-page/static/js/main.e2bd294d.chunk.js.map",
+    "main.css": "/apiary-landing-page/static/css/main.185ba9c3.chunk.css",
+    "main.js": "/apiary-landing-page/static/js/main.5cdb2e15.chunk.js",
+    "main.js.map": "/apiary-landing-page/static/js/main.5cdb2e15.chunk.js.map",
     "runtime-main.js": "/apiary-landing-page/static/js/runtime-main.e986571b.js",
     "runtime-main.js.map": "/apiary-landing-page/static/js/runtime-main.e986571b.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/apiary-landing-page/static/css/2.7fc9bc2b.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.72775471.chunk.js.map": "/apiary-landing-page/static/js/3.72775471.chunk.js.map",
     "index.html": "/apiary-landing-page/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/apiary-landing-page/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.0c89340a.chunk.css.map": "/apiary-landing-page/static/css/main.0c89340a.chunk.css.map",
+    "static/css/main.185ba9c3.chunk.css.map": "/apiary-landing-page/static/css/main.185ba9c3.chunk.css.map",
     "static/js/2.29e5c5ed.chunk.js.LICENSE.txt": "/apiary-landing-page/static/js/2.29e5c5ed.chunk.js.LICENSE.txt",
     "static/media/PR-boost.479802b9.png": "/apiary-landing-page/static/media/PR-boost.479802b9.png",
     "static/media/Professionalism.c6cc5715.png": "/apiary-landing-page/static/media/Professionalism.c6cc5715.png",
@@ -35,7 +35,7 @@
     "static/js/runtime-main.e986571b.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.29e5c5ed.chunk.js",
-    "static/css/main.0c89340a.chunk.css",
-    "static/js/main.e2bd294d.chunk.js"
+    "static/css/main.185ba9c3.chunk.css",
+    "static/js/main.5cdb2e15.chunk.js"
   ]
 }
