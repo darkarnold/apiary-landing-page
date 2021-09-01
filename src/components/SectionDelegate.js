@@ -4,7 +4,7 @@ import { contentDelegateTasks } from "../data";
 
 function SectionDelegate() {
     return (
-        <ContentDelegate content={contentDelegateTasks} />
+        <ContentDelegate content={contentDelegateTasks} id="projects" />
     );
 }
 

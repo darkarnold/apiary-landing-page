@@ -14,8 +14,12 @@
   transition: transform 0.5s;
 }
 
+.button:focus-visible {
+  outline: none;
+}
+
 .button:hover {
-  transform: scale(1.08);
+  transform: scale(1.05);
   background-color: #ff9900;
   color: #fff;
   cursor: pointer;

@@ -5,7 +5,7 @@ import { contentWhatRequest } from "../data";
 function SectionWhatRequests() {
 
     return (
-        <section className="content">
+        <section className="content" id="whatrequest">
             <div className="content__wrapper">
                 <h2 className="content__heading">{contentWhatRequest.title}</h2>
                 <h3 className="content__text">{contentWhatRequest.subtitle}</h3>

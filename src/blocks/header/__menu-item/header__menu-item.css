@@ -1,0 +1,18 @@
+.header_menu-item {
+    margin: 0 32px 0 0;
+}
+
+.header__menu-item:last-child {
+    margin-right: 0;
+}
+@media screen and (max-width: 1024px) {
+    .header__menu-item {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .header__menu-items {
+        margin: 0 16px 20px;
+    }
+}
