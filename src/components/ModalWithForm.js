@@ -19,6 +19,7 @@ const ModalWrapperStyled = styled.div`
         padding: ${props => props.confirm ? "60px" : "60px 100px"};
     }
 `
+
 const FormStyled = styled.form`        
     margin: 10px 0 0;
     display: flex;
@@ -34,6 +35,7 @@ const TitleStyled = styled.h3`
     line-height: 36px;
     margin:0;
     color: #000000;
+    padding: 0 55px 0 0;
     @media (min-width: 1024px) {
         font-size: 30px;
         line-height: 40px;}
@@ -111,7 +113,6 @@ const CloseModalButtonStyled = styled(MdClose)`
     height:32px;
     padding:0;
     z-index:10;
-    display:none;
     @media (min-width: 1024px) {
         display:flex;
     }
@@ -151,7 +152,7 @@ function ModalWithForm(props) {
     return (
         <>
             {!secondOpen ?
-                <ModalWrapperStyled data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="400">
+                <ModalWrapperStyled data-aos="zoom-in" data-aos-easing="ease-in-out" data-aos-duration="400" className="scrollbar-hidden">
                     <CloseModalButtonStyled
                         aria-label='Close modal'
                         onClick={handleCloseModals}
@@ -172,7 +173,7 @@ function ModalWithForm(props) {
                     </FormStyled>
                 </ModalWrapperStyled> : null}
             {secondOpen ?
-                <ModalWrapperStyled confirm>
+                <ModalWrapperStyled confirm className="scrollbar-hidden">
                     <TitleStyled>
                         Thank you for contacting us, Tim Cook from Apple Inc.! We’ll reach out to you in email as soon as possible. Looking forward to work together!</TitleStyled>
                     <ConfirmButtonStyled className="cta cta_theme_dark" onClick={handleCloseModals}>Done</ConfirmButtonStyled>
