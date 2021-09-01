@@ -6,10 +6,10 @@ function Footer() {
             <div className="footer__wrapper">
                 <ul className="footer__links-grid footer__links">
                     <li>
-                        <a href="/" className="footer__link footer__text-aboutus">About us</a>
+                        <a href="#about" className="footer__link footer__text-aboutus">About us</a>
                     </li>
                     <li>
-                        <a href="#main" className="footer__link footer__text-totop">Back to top &#8593;</a>
+                        <a href="#nav" className="footer__link footer__text-totop">Back to top &#8593;</a>
                     </li>
                 </ul>
                 <div className="footer__links-grid">

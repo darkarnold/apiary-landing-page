@@ -5,7 +5,7 @@ import logoPracticum from "../images/logo-practicum.png";
 function Header({onCtaClick}) {
   const [open, setOpen] = useState(false);
   return (
-    <header className="header">
+    <header className="header" id="nav">
       <div className="header__content-wrapper">
         <div className="logo">
           <img src={logoY} alt="Yandex logo" className="logo__yandex" />
