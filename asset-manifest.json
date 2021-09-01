@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/apiary-landing-page/static/css/main.6ed40870.chunk.css",
+    "main.js": "/apiary-landing-page/static/js/main.bcb16c30.chunk.js",
+    "main.js.map": "/apiary-landing-page/static/js/main.bcb16c30.chunk.js.map",
+    "runtime-main.js": "/apiary-landing-page/static/js/runtime-main.e986571b.js",
+    "runtime-main.js.map": "/apiary-landing-page/static/js/runtime-main.e986571b.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/apiary-landing-page/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.29e5c5ed.chunk.js": "/apiary-landing-page/static/js/2.29e5c5ed.chunk.js",
+    "static/js/2.29e5c5ed.chunk.js.map": "/apiary-landing-page/static/js/2.29e5c5ed.chunk.js.map",
+    "static/js/3.72775471.chunk.js": "/apiary-landing-page/static/js/3.72775471.chunk.js",
+    "static/js/3.72775471.chunk.js.map": "/apiary-landing-page/static/js/3.72775471.chunk.js.map",
+    "index.html": "/apiary-landing-page/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/apiary-landing-page/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.6ed40870.chunk.css.map": "/apiary-landing-page/static/css/main.6ed40870.chunk.css.map",
+    "static/js/2.29e5c5ed.chunk.js.LICENSE.txt": "/apiary-landing-page/static/js/2.29e5c5ed.chunk.js.LICENSE.txt",
+    "static/media/PR-boost.479802b9.png": "/apiary-landing-page/static/media/PR-boost.479802b9.png",
+    "static/media/Professionalism.c6cc5715.png": "/apiary-landing-page/static/media/Professionalism.c6cc5715.png",
+    "static/media/index.css": "/apiary-landing-page/static/media/hamburger_toggle_button.47ebf0bb.svg",
+    "static/media/checklist.149a12a0.svg": "/apiary-landing-page/static/media/checklist.149a12a0.svg",
+    "static/media/experience.f1c3ef78.png": "/apiary-landing-page/static/media/experience.f1c3ef78.png",
+    "static/media/logo-y.695cbd13.svg": "/apiary-landing-page/static/media/logo-y.695cbd13.svg",
+    "static/media/meditate-girl.0f55c846.png": "/apiary-landing-page/static/media/meditate-girl.0f55c846.png",
+    "static/media/peopleWithLaptop.fa033683.png": "/apiary-landing-page/static/media/peopleWithLaptop.fa033683.png",
+    "static/media/publicize.6f0f9fd8.png": "/apiary-landing-page/static/media/publicize.6f0f9fd8.png",
+    "static/media/quality.518ae64f.png": "/apiary-landing-page/static/media/quality.518ae64f.png",
+    "static/media/question.7bcc917f.svg": "/apiary-landing-page/static/media/question.7bcc917f.svg",
+    "static/media/resource-saving.f2f20c92.png": "/apiary-landing-page/static/media/resource-saving.f2f20c92.png",
+    "static/media/work.b0fd5a56.svg": "/apiary-landing-page/static/media/work.b0fd5a56.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e986571b.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.29e5c5ed.chunk.js",
+    "static/css/main.6ed40870.chunk.css",
+    "static/js/main.bcb16c30.chunk.js"
+  ]
+}
