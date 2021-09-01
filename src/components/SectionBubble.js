@@ -9,7 +9,7 @@ function SectionBubble({ onCtaClick }) {
   }, []);
 
   return (
-    <section className="bubble">
+    <section className="bubble" id="about">
       <div className="bubble__content">
         <h2 className="bubble__title">{contentBubble.title}</h2>
         {contentBubble.messages.map((message) => (

@@ -57,7 +57,7 @@ function App() {
   return (
     <div className="root">
       <div className="root__container">
-        <Header />
+        <Header onCtaClick={handleSetFirstOpen}/>
 
         <Main onCtaClick={handleSetFirstOpen} />
 

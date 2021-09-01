@@ -1,34 +1,21 @@
-.header__menu-items {
-  margin: 0 32px 0 0;
+.header__menu-link {
   font-family: Suisse Intl, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 19px;
   font-weight: 400;
   color: #616161;
   transition: all 0.5s ease 0s;
+  text-decoration: none;
 }
 
-.header__menu-items:last-child {
-  margin-right: 0;
-}
-
-.header__menu-items:hover {
+.header__menu-link:hover {
   cursor: pointer;
   color: #000;
-  transform: scale(1.08);
-  font-weight: 700;
-}
-
-@media screen and (max-width: 1024px) {
-  .header__menu-items {
-    margin-right: 20px;
-  }
 }
 
 @media screen and (max-width: 720px) {
-  .header__menu-items {
+  .header__menu-link {
     width: 100%;
-    margin: 0 16px 20px;
     font-size: 34px;
     line-height: 39px;
     text-align: center;

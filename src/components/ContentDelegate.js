@@ -2,7 +2,7 @@ import React from "react";
 
 function ContentDelegate(props) {
     return (
-        <section className="delegate">
+        <section className="delegate" id={`${props.id}`}>
             <div className="delegate__wrapper">
                 <div className="delegate__text-wrapper">
                     <h2 className="delegate__title">
