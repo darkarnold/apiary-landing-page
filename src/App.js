@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import ModalWithForm from "./components/ModalWithForm";
 import styled from "styled-components";
 
-import Header from "./Header";
+import Header from "./components/Header";
 
 const ModalOverlay = styled.div`
   width: 100%;
